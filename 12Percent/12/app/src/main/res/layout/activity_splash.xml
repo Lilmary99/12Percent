@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context="com.">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="688dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-5dp"
+        android:background="#009688"
+        android:paddingLeft="60dp"
+        android:paddingTop="60dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="30dp"
+        android:src="@drawable/pic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="462dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="51dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="60dp"
+        android:paddingBottom="30dp"
+        android:text="Are All Your Eggs In One Basket?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#1D1818"
+        android:textColorHint="#F44336"
+        android:textSize="20dp"
+        app:fontFamily="monospace" />
+</RelativeLayout>

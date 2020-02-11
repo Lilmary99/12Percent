@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">12%</string>
+    <string name="please_select_which_company_that_you_are_interested_in">Please select which company that you are interested in:</string>
+    <string name="income">Income - $</string>
+    <string name="etfs">ETFs</string>
+    <string name="please_enter_your_income_and_click_the_button">Please enter your income and click the button.</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="my_12">My 12% :</string>
+</resources>
